@@ -1,29 +1,40 @@
-.navbar-brand img {
+/*fixed header*/
+.header
+{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0%
+}
+.navbar-brand img 
+{
   width: 200px;
   height: 80px;
 }
-.nav-item a {
+.nav-item a 
+{
   background-color: #fff;
 }
-.jumbotron-fluid {
+.jumbotron-fluid
+{
   height: 0rem;
   text-align: center;
   font-size: 1px;
-  margin-top: 20px;
+  margin-top: 120px;
   margin-bottom: 10px;
   font-family: "Shadows Into Light", cursive;
   padding-top: 1px;
+  
 }
-.container {
-  line-height: 18px;
-  text-align: center;
-}
+
+/*giving styles to carousel images*/
 .carousel-inner img {
   margin-top: 10px;
   width: 500px;
   height: 700px;
 }
-.places-visit {
+.places-visit 
+{
   margin-top: 20px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -48,70 +59,86 @@
   height: 500px;
   margin-top: 10px;
 }
-
-.mb-3 {
+.mb-3 
+{
   margin-top: 40px;
   width: 500px;
 }
-.tabbed-pane h2 {
+/* styling the h2 tag in tabbed-pane*/
+.tabbed-pane h2
+{
   margin-top: 200px;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   padding-top: 30px;
 }
-.nav-item a {
+/*background coloring to nav-item*/
+.nav-item a 
+{
   background-color: aliceblue;
 }
 
 .fade img {
   float: left;
   height: 300px;
-  width: 700px;
+  width: 400px;
 }
-
-.footer {
+/*spacing top for footer*/
+.footer
+ {
   margin-top: 250px;
 }
 .fa {
+
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  float: right;
+  float:right;
+  
 }
-.mb-1 {
+.mb-1 
+{
   text-align: center;
 }
 
-.fa:hover {
+.fa:hover 
+{
   opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook 
+{
   background: #3b5998;
   color: white;
 }
 
-.fa-twitter {
+.fa-twitter 
+{
   background: #55acee;
   color: white;
 }
 
-.fa-google {
+.fa-google 
+{
   background: #dd4b39;
   color: white;
 }
 
-.fa-linkedin {
+.fa-linkedin 
+{
   background: #007bb5;
   color: white;
 }
-.py-3 {
+.py-3 
+{
   text-align: center;
-  padding-left: 200px;
+  padding-left: 60px;
 }
-.py-3 a {
+.py-3 a 
+{
   color: black;
+  
 }
